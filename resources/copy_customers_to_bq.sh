@@ -1,1 +1,1 @@
-bq load --source_format=CSV --autodetect landing.customers gs://bigdata-workshop-data-landing-<your-salt>/customers.csv
+bq load --source_format=CSV --autodetect landing.customers gs://<your-bucket>/customers.csv
