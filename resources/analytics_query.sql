@@ -13,7 +13,7 @@ WITH category_buy AS (
     FROM `curated.customers` c
     JOIN `curated.sales` s
     ON c.first_name=s.first_name AND c.last_name=s.last_name
-    WHERE price > 1500
+    WHERE price > 1500 AND product = "TV"
 ),
 buy_stat AS (
     SELECT
