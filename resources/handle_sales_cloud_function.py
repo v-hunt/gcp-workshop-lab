@@ -4,7 +4,7 @@ from google.cloud import bigquery
 storage_client = storage.Client()
 bigquery_client = client = bigquery.Client()
 
-TABLE_ID = "landing.sales"
+TABLE_ID = "curated.sales"
 TRIGGER_FILENAME = "sales.csv"
 
 

@@ -10,8 +10,8 @@ WITH category_buy AS (
             ELSE "above 40"
         END AS age_category,
         price
-    FROM `landing.customers` c
-    JOIN `landing.sales` s
+    FROM `curated.customers` c
+    JOIN `curated.sales` s
     ON c.first_name=s.first_name AND c.last_name=s.last_name
     WHERE price > 1500
 ),
