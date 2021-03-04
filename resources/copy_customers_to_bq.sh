@@ -1,1 +1,1 @@
-bq load --source_format=CSV --autodetect landing.customers gs://<your-bucket>/customers.csv
+bq load --source_format=CSV --autodetect curated.customers gs://<your-bucket>/customers.csv
